@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  color: #1a1a1a;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  max-width: 1100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.contact-list a {
+  color: #1a1a1a;
+}
+.visit-counter {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.resume-heading {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 0.7em;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.position-info {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.bottom {
+  margin-top: 1.3rem;
+}
+.top {
+  margin-bottom: 1.3rem;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <script src="script.js" async></script>
     <title>Cloud Resume</title>
   </head>
@@ -23,103 +23,130 @@
         </nav>
       </header>
       <!---------------------------OBJECTIVE------------------------------------>
-
-      <div class="resume-section">
-        <h2 class="section-heading">Objective</h2>
+      <h2 class="section-heading">Objective</h2>
+      <div class="card">
         <p class="description">
-          A self-motivated and curious cloud engineer who loves to dive
-          headfirst into ambiguity, collaborating with my team to develop
-          efficient and elegant solutions. I’m seeking an internship or
-          full-time cloud position where I can work on <br />challenging
-          problems and learn alongside industry leaders.
+          A self-motivated and curious engineer who loves to dive headfirst into
+          ambiguity, and collaborate with my team to develop efficient and
+          elegant solutions. I’m seeking an internship or full-time position
+          where I can work on <br />challenging problems and learn alongside
+          industry leaders.
         </p>
       </div>
       <!---------------------------Experience------------------------------------>
       <div class="resume-section">
         <h2 class="section-heading">Experience</h2>
-        <div class="experience-item">
-          <p class="position-info">
-            Support Analyst, Manumit Solutions |Fairfax,Va Sep'19-May 2021
-          </p>
-          <ul class="accomplishments">
-            <li>
-              Architected and deployed secure and robust applications in AWS
-            </li>
-            <li>
-              Analyzed AWS system and application logs to improve performance
-              and ensure high availability of infrastructure
-            </li>
-            <li>
-              Worked alongside users and engineers to successfully resolve
-              tickets and uphold SLAs
-            </li>
-          </ul>
+        <div class="experience-item card top">
+          <div class="card-header">
+            <span class="position-info">
+              Support Analyst, Manumit Solutions
+            </span>
+            <span class="position-info">Fairfax,Va|Sep'19-May 2021</span>
+          </div>
+          <div class="card-body">
+            <ul class="accomplishments">
+              <li>
+                Architected and deployed secure and robust applications in AWS
+              </li>
+              <li>
+                Analyzed AWS system and application logs to improve performance
+                and ensure high availability of infrastructure
+              </li>
+              <li>
+                Worked alongside users and engineers to successfully resolve
+                tickets and uphold SLAs
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div class="experience-item">
-          <p class="position-info">
-            NLP Research Assistant,VCU NLP Lab |Richmond,Va Oct'18-May'19
-          </p>
-          <ul class="accomplishments">
-            <li>
-              Collaborated in a ten person team of developers to build an open
-              source medical text mining package leveraging <br />modern
-              software development principles
-            </li>
-            <li>Logged bugs found in code before and after code check-in</li>
-            <li>Presented demo at 2019 VCU Research Symposium</li>
-          </ul>
+        <div class="experience-item card">
+          <div class="card-header">
+            <span class="position-info">
+              NLP Research Assistant,VCU NLP Lab
+            </span>
+            <span class="position-info">Richmond,Va|Oct'18-May'19</span>
+          </div>
+          <div class="card-body">
+            <ul class="accomplishments">
+              <li>
+                Collaborated in a ten person team of developers to build an open
+                source medical text mining package leveraging <br />modern
+                software development principles
+              </li>
+              <li>Logged bugs found in code before and after code check-in</li>
+              <li>Presented demo at 2019 VCU Research Symposium</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="experience-item">
-          <p class="position-info">
-            Help Desk Tech, Richmond Public Library |Richmond,Va Jan'17-May'18
-          </p>
-          <ul class="accomplishments">
-            <li>Provided desktop support to library staff and patrons</li>
-            <li>
-              Managed access control for staff and library patrons using IAM
-              tools
-            </li>
-            <li>
-              Assisted the IT team with successfully upgrading 100+ computers
-            </li>
-          </ul>
+        <div class="experience-item card bottom">
+          <div class="card-header">
+            <span class="position-info">
+              Help Desk Tech, Richmond Public Library
+            </span>
+            <span class="position-info">Richmond,Va|Jan'17-May'18</span>
+          </div>
+          <div class="card-body">
+            <ul class="accomplishments">
+              <li>Provided desktop support to library staff and patrons</li>
+              <li>
+                Managed access control for staff and library patrons using IAM
+                tools
+              </li>
+              <li>
+                Assisted the IT team with successfully upgrading 100+ computers
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <!---------------------------PROJECTS------------------------------------>
       <div class="resume-section">
         <h2 class="section-heading">Projects</h2>
-        <div class="project-item">
-          <p class="position-info">moBurgerz LLC, October 2020</p>
-          <ul class="accomplishments">
-            <li>
-              Designed a website for a food truck using HTML, CSS, and
-              JavaScript
-            </li>
-            <li>Fully hosted on AWS using S3 and CloudFront</li>
-            <li>Set up SSL certificate and domain using Rt.53</li>
-          </ul>
+        <div class="card top">
+          <div class="card-header">
+            <span class="position-info">moBurgerz LLC</span>
+            <span class="position-info">October 2020</span>
+          </div>
+          <div class="card-body">
+            <ul class="accomplishments">
+              <li>
+                Designed a website for a food truck using HTML, CSS, and
+                JavaScript
+              </li>
+              <li>Fully hosted on AWS using S3 and CloudFront</li>
+              <li>Set up SSL certificate and domain using Rt.53</li>
+            </ul>
+          </div>
         </div>
-        <div class="project-item">
-          <p class="position-info">Deloitte Virtual Internship, Summer 2020</p>
-          <ul class="accomplishments">
-            <li>
-              Consulted a university in Australia with their transition from
-              on-premise IT infrastructure to the cloud
-            </li>
-            <li>
-              Conducted a cost-benefit analysis to advise the client on possible
-              benefits and considerations of migrating to the cloud
-            </li>
-            <li>
-              Created a presentation to give the university a better
-              understanding of cloud computing
-            </li>
-          </ul>
+        <div class="card">
+          <div class="card-header">
+            <span class="position-info"> Virtual Internship</span>
+            <span class="position-info"> July 2020</span>
+          </div>
+          <div class="card-body">
+            <ul class="accomplishments">
+              <li>
+                Consulted a university in Australia with their transition from
+                on-premise IT infrastructure to the cloud
+              </li>
+              <li>
+                Conducted a cost-benefit analysis to advise the client on
+                possible benefits and considerations of migrating to the cloud
+              </li>
+              <li>
+                Created a presentation to give the university a better
+                understanding of cloud computing
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="project-item">
-          <p class="position-info">MedaCy, Spring 2019</p>
+        <div class="card bottom">
+          <div class="card-header">
+            <span class="position-info">MedaCy</span>
+            <span class="position-info">Spring 2019</span>
+          </div>
           <ul class="accomplishments">
             <li>Trained a highly predictive machine learning NLP model</li>
             <li>
@@ -133,7 +160,7 @@
       <!---------------------------SKILLS--------------------------------------->
       <div class="resume-section">
         <h2 class="section-heading skills">Skills</h2>
-        <div class="skills-item">
+        <div class="card">
           <ul class="accomplishments">
             <li>
               <strong>Proficient:</strong> HTML5, CSS, JavaScript, AWS, Python,
@@ -150,7 +177,7 @@
       <!---------------------------EDUCATION------------------------------------>
       <div class="resume-section">
         <h2 class="section-heading">Education</h2>
-        <div class="education-item">
+        <div class="card">
           <ul class="accomplishments">
             <li>
               Virginia Commonwealth University, Richmond, VA Jan'17-Dec'21
