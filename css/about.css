@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+}
+.main-nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: flex-start;
+}
+
+.main-list a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-list li {
+  border-bottom: 1px solid #1a1a1a;
+}
+.main-list li :hover {
+  cursor: pointer;
+}
+.about-nav {
+  width: 35%;
+}
+
+.about-content {
+  width: 65%;
+}
+
+.about-description a {
+  text-decoration: underline;
+  color: inherit;
+}
