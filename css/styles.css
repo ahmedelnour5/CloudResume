@@ -33,6 +33,10 @@ body {
 
 .contact-list a {
   color: #1a1a1a;
+  text-decoration: none;
+}
+.contact-list a:hover {
+  border-bottom: 1px solid #1a1a1a;
 }
 .visit-counter {
   display: flex;
@@ -75,11 +79,6 @@ body {
 }
 .top {
   margin-bottom: 1.3rem;
-}
-
-.accomplishments {
-  color: inherit;
-  font-weight: 700;
 }
 
 .project-heading {
