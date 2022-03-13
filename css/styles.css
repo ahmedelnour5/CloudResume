@@ -60,6 +60,7 @@ body {
 .card {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 0.7em;
+  border: 1px solid #ccc;
 }
 
 .card:hover {
