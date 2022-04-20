@@ -17,10 +17,46 @@
     </nav>
   </header>
   <body>
-    <div class="container">
-      <div class="resume-section">
+    <main class="container">
+      <section class="resume-section">
         <h2 class="section-heading project-heading">Projects</h2>
-        <div class="card top">
+        <div
+          class="card top"
+          onclick="window.open('https://ahmedelnour5.github.io/calculator/')"
+        >
+          <div class="card-header">
+            <span class="position-info">Calculator</span>
+            <span class="position-info">March 2022</span>
+          </div>
+          <ul class="accomplishments">
+            <li>Built a Calculator webApp using</li>
+            <li>
+              Designed UI using HTML/CSS and added functionality using a custom
+              javascript script
+            </li>
+            <li>Deployed using Github Actions</li>
+          </ul>
+        </div>
+        <div
+          class="card"
+          onclick="window.open('https://ahmedelnour5.github.io/rockPaperScissors/')"
+        >
+          <div class="card-header">
+            <span class="position-info"> Rock Paper Scissors</span>
+            <span class="position-info"> February 2022</span>
+          </div>
+          <div class="card-body">
+            <ul class="accomplishments">
+              <li>
+                Designed a UI in HTML/CSS to allow user to play rock, paper
+                scissors against the computer
+              </li>
+              <li>Wrote a custom JavaScript script to implement game logic</li>
+              <li>Deployed using Github Actions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" onclick="window.open('https://medelnour.com/')">
           <div class="card-header">
             <span class="position-info">Cloud Resume</span>
             <span class="position-info">January 2022</span>
@@ -43,22 +79,7 @@
             </ul>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header">
-            <span class="position-info"> moBurgerz LLC</span>
-            <span class="position-info"> October 2020</span>
-          </div>
-          <div class="card-body">
-            <ul class="accomplishments">
-              <li>
-                Designed a website for a food truck using HTML, CSS, and
-                JavaScript
-              </li>
-              <li>Fully hosted on AWS using S3 and CloudFront</li>
-              <li>Utilized AWS CodePipeline and Github to configure CI/CD</li>
-            </ul>
-          </div>
-        </div>
+
         <div class="card bottom">
           <div class="card-header">
             <span class="position-info">Deloitte Virtual Internship</span>
@@ -76,7 +97,7 @@
             <li>Assisted IT team with architecting the environment in AWS</li>
           </ul>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
